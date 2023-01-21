@@ -107,15 +107,28 @@ export default {
 
     &--1 {
       background-image: url("../../assets/images/case/1.jpg");
+
+      @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 2dppx) {
+        background-image: url("../../assets/images/case/1@2x.jpg");
+      }
     }
     &--2 {
       background-image: url("../../assets/images/case/2.jpg");
+      @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 2dppx) {
+        background-image: url("../../assets/images/case/2@2x.jpg");
+      }
     }
     &--3 {
       background-image: url("../../assets/images/case/4.jpg");
+      @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 2dppx) {
+        background-image: url("../../assets/images/case/4@2x.jpg");
+      }
     }
     &--4 {
       background-image: url("../../assets/images/case/3.jpg");
+      @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 2dppx) {
+        background-image: url("../../assets/images/case/3@2x.jpg");
+      }
     }
   }
 
