@@ -20,8 +20,12 @@
         </div>
       </div>
       <div class="main-screen__btns">
-        <base-button> order </base-button>
-        <base-button transparent> callback </base-button>
+        <a href="/#contact">
+          <base-button> order </base-button>
+        </a>
+        <a href="/#contact">
+          <base-button transparent> callback </base-button>
+        </a>
       </div>
     </div>
   </section>
@@ -70,7 +74,7 @@
   &__btns {
     display: flex;
 
-    button:first-child {
+    a:first-child {
       margin-right: 26px;
     }
   }

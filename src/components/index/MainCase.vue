@@ -4,7 +4,9 @@
       <div class="case">
         <div class="case__header">
           <h2 class="base-title">Case</h2>
-          <base-button> CONSULTATION </base-button>
+          <a href="/#contact">
+            <base-button> CONSULTATION </base-button>
+          </a>
         </div>
         <div class="list">
           <swiper
@@ -138,7 +140,7 @@ export default {
     line-height: 115%;
     letter-spacing: -0.03em;
     color: #ffffff;
-    margin: 0 0 14px;
+    margin: 0 0 14px -6px;
   }
 
   &__item-text {

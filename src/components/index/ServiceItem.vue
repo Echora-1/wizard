@@ -3,7 +3,9 @@
     <p class="item__title">
       <span>{{ content.number }}</span> / {{ content.total }}
     </p>
-    <p class="item__text">{{ content.text }}</p>
+    <p :class="['item__text', { 'item__text--arrow': arrow }]">
+      {{ content.text }}
+    </p>
   </div>
 </template>
 
@@ -16,6 +18,10 @@ export default {
         return {};
       },
     },
+    arrow: {
+      type: Boolean,
+      default: true,
+    },
   },
 };
 </script>
@@ -26,7 +32,6 @@ export default {
   font-size: 20px;
   line-height: 135%;
   letter-spacing: -0.03em;
-  color: #000000;
   margin-bottom: 60px;
 
   &__title {
@@ -42,19 +47,22 @@ export default {
   &__text {
     margin: 0;
     max-width: 230px;
-    padding-left: 34px;
     position: relative;
 
-    &::before {
-      content: "";
-      position: absolute;
-      width: 18px;
-      height: 14px;
-      top: 6px;
-      left: 5px;
-      background-image: url("../../assets/images/arrow.svg");
-      background-position: center;
-      background-repeat: no-repeat;
+    &--arrow {
+      padding-left: 34px;
+
+      &::before {
+        content: "";
+        position: absolute;
+        width: 18px;
+        height: 14px;
+        top: 6px;
+        left: 5px;
+        background-image: url("../../assets/images/arrow.svg");
+        background-position: center;
+        background-repeat: no-repeat;
+      }
     }
   }
 }

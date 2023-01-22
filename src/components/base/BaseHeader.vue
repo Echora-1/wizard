@@ -16,22 +16,22 @@
         />
         <ul class="header__nav-list">
           <li class="header__nav-item">
-            <a href="/#" @click="closeMenu">Home</a>
+            <a href="/#home" @click="closeMenu">Home</a>
           </li>
           <li class="header__nav-item">
-            <a href="/#" @click="closeMenu">Services</a>
+            <a href="/#services" @click="closeMenu">Services</a>
           </li>
           <li class="header__nav-item">
-            <a href="/#" @click="closeMenu">Cases</a>
+            <a href="/#case" @click="closeMenu">Cases</a>
           </li>
           <li class="header__nav-item">
-            <a href="/#" @click="closeMenu">How do we</a>
+            <a href="/#howDoWe" @click="closeMenu">How do we</a>
           </li>
           <li class="header__nav-item">
-            <a href="/#" @click="closeMenu">Prices</a>
+            <a href="/#prices" @click="closeMenu">Prices</a>
           </li>
           <li class="header__nav-item">
-            <a href="/#" @click="closeMenu">Contact Us</a>
+            <a href="/#contact" @click="closeMenu">Contact Us</a>
           </li>
         </ul>
       </nav>
