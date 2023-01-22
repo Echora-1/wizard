@@ -8,6 +8,7 @@
             v-for="(item, index) in items"
             :key="index"
             :href="item.link"
+            :aria-label="item.hash.split('#')[1]"
             :class="[
               'layout__nav-item',
               { 'layout__nav-item--active': item.hash === currentHash },

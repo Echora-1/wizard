@@ -4,7 +4,7 @@
       <div class="how-do__header">
         <h2 class="base-title">How do we</h2>
         <a href="/#contact">
-          <base-button>CONSULTATION</base-button>
+          <base-button>consultation</base-button>
         </a>
       </div>
       <div class="how-do__list">
@@ -113,7 +113,7 @@ export default {
     width: 33.333%;
   }
 
-  &__list-item::v-deep {
+  &__list-item:deep {
     .item__text {
       max-width: 300px;
     }

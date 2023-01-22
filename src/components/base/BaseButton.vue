@@ -74,7 +74,8 @@ export default {
   }
 
   &--disabled {
-    opacity: 0.4;
+    background: rgba(0, 0, 0, 0.3);
+    border-color: transparent;
     cursor: not-allowed;
   }
 

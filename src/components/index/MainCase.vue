@@ -5,7 +5,7 @@
         <div class="case__header">
           <h2 class="base-title">Case</h2>
           <a href="/#contact">
-            <base-button> CONSULTATION </base-button>
+            <base-button> consultation </base-button>
           </a>
         </div>
         <div class="list">

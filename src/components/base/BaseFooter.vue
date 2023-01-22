@@ -2,13 +2,13 @@
   <footer class="footer">
     <div class="container footer__container">
       <div class="footer__social">
-        <a href="" class="footer__social-item">
+        <a href="" aria-label="linked-in" class="footer__social-item">
           <icon-linked-in />
         </a>
-        <a href="" class="footer__social-item">
+        <a href="" aria-label="google" class="footer__social-item">
           <icon-google />
         </a>
-        <a href="" class="footer__social-item">
+        <a href="" aria-label="telegram" class="footer__social-item">
           <icon-telegram />
         </a>
       </div>

@@ -4,7 +4,7 @@
       <div class="services__header">
         <h2 class="base-title">Services</h2>
         <a href="/#contact">
-          <base-button> CONTACT US </base-button>
+          <base-button> contact us </base-button>
         </a>
       </div>
       <div class="services__list">
