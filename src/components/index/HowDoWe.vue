@@ -110,7 +110,7 @@ export default {
   }
 
   &__list-item {
-    width: 33.33%;
+    width: 33.333%;
   }
 
   &__list-item::v-deep {
